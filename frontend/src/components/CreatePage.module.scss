@@ -1,0 +1,158 @@
+.banniere {
+  background-color: #fff30d;
+  margin: 0;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 1%;
+}
+
+h1,
+.intro {
+  text-align: center;
+  color: rgb(12, 57, 68);
+}
+
+.formCreatePage {
+  padding: 25px 0;
+  display: flex;
+  font-family: "Lato", sans-serif;
+  flex-direction: column;
+  gap: 20px;
+  width: 80svw;
+  margin: auto;
+}
+
+h1 {
+  font-family: "Raleway", sans-serif;
+}
+
+label,
+.label {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  margin-bottom: -15px;
+}
+
+input,
+select,
+textarea,
+.editor {
+  font-family: "Lato", sans-serif;
+  border-radius: 5px;
+  border: solid whitesmoke 1px;
+  box-shadow: 5px 5px 5px rgba(12, 57, 68, 0.534);
+  border: solid 1px rgb(12, 57, 68);
+  margin-bottom: 25px;
+}
+
+.title {
+  height: 40px;
+  width: 100%;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.date > input {
+  font-size: 1em;
+}
+
+.date {
+  margin: auto;
+}
+
+.dateTitle {
+  margin-bottom: 5px;
+}
+
+.createbtnSubmit {
+  text-align: center;
+  font-size: 1.125rem;
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+  background-color: rgba(25, 108, 132, 1);
+  color: black;
+  border: 0.0625rem solid rgba(25, 108, 132, 1);
+  display: inline-flex;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  height: 3.375rem;
+  width: 18.1875rem;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 3.375rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  padding-right: 1.6875rem;
+  padding-left: 1.6875rem;
+  min-width: 15.1875rem;
+  transition: all 0.3s;
+}
+
+.buttonServ {
+  padding-top: 25px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 2;
+  gap: 5px;
+}
+
+.services {
+  display: flex;
+  flex-direction: rows;
+  justify-content: space-around;
+  margin-bottom: 25px;
+}
+
+.benefInc {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.writeBI {
+  min-width: 39svw;
+  min-height: 300px;
+  margin: 0px;
+  font-size: 16px;
+  resize: none;
+}
+.inputDate {
+  max-width: 20svw;
+  min-width: 10svw;
+  height: 45px;
+  text-align: center;
+}
+
+table,
+td {
+  border: solid rgb(12, 57, 68);
+  border-collapse: collapse;
+  width: 25svw;
+}
+
+thead {
+  height: 35px;
+}
+
+tr {
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .btnSubmit {
+    width: 25svw;
+  }
+
+  .benefInc {
+    flex-direction: column;
+    gap: 15px;
+  }
+}

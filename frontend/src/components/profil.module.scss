@@ -1,0 +1,94 @@
+.banniere {
+  background-color: #0c3944;
+  margin: 0;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 1%;
+  color: white;
+}
+
+.mainHome {
+  height: 27rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nom {
+  font-family: Raleway;
+  align-self: center;
+  font-size: 3rem;
+}
+
+.statut {
+  font-family: Raleway;
+  text-align: center;
+}
+
+.Email {
+  font-family: Raleway;
+  text-align: center;
+}
+
+.Modifier {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.125rem;
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+  background-color: rgba(25, 108, 132, 1);
+  color: black;
+  border: 0.0625rem solid rgba(25, 108, 132, 1);
+  height: 3.375rem;
+  width: 15.1875rem;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 3.375rem;
+  min-width: 15.1875rem;
+  transition: all 0.3s;
+}
+
+.button {
+  display: flex;
+  align-self: center;
+  text-align: center;
+}
+
+.information {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 50rem;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: white;
+  border-radius: 12.5px;
+  border-color: #eaeaea;
+  color: black;
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.mobile {
+  font-family: Lato;
+  font-size: 1.7rem;
+  margin-left: 10px;
+  justify-content: flex-start;
+  font-weight: bold;
+}
+
+.fixe {
+  font-family: Lato;
+  font-size: 1.7rem;
+  margin-left: 10px;
+  justify-content: flex-start;
+  font-weight: bold;
+}
+
+.email {
+  font-family: Lato;
+  font-size: 1.7rem;
+  margin-left: 10px;
+  font-weight: bold;
+}
